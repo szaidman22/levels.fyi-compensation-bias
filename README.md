@@ -1,6 +1,6 @@
 # levels.fyi-compensation-bias
 
-![download](https://user-images.githubusercontent.com/61389709/230993762-78eeff96-0ec7-4ba1-bc55-382ddebed069.png)
+[Full post about this project can be found on my blog](https://sofiazaidman.com/gender-and-race-in-the-tech-industry-analysis-of-bias-in-compensation/)
 
 Background – Current Gender and Wage gaps in the US
 
@@ -45,4 +45,14 @@ The direction of all coefficients in the final model agree with PayScale’s 202
 There was a large drop in coefficient magnitude for the dummy-coded race and gender variables after controlling for years of experience, years at the company, education, job title and cost of living. This drop was especially large in the coefficient for Race [Black], going from -.17 to -.06 – a difference of 11% explanatory power. This suggests that there is important information contained in the control variables that should be explored further. Systemic differences between racial groups and genders in educational attainment, job title, years of experience and tenure at a company would all affect total annual compensation. If these mediating factors are not addressed along with outright discrimination, financial parity for demographic groups that have historically been excluded from the tech industry will be severely slowed.
 
 Ultimately, there remains a significant amount of variance in total annual compensation that cannot be explained by any of the control variables, particularly for Black tech workers and for women. As the population of these groups rises in the industry, it is increasingly important to continue to analyze the biased systems and attitudes that contribute to this phenomenon.
+
+Some visualizations:
+
+![download](https://user-images.githubusercontent.com/61389709/230993762-78eeff96-0ec7-4ba1-bc55-382ddebed069.png)
+
+We see that posters who identify as female in our sample are more likely to report job titles that are less technical, or more person-facing than those who identify as male.
+
+![download](https://user-images.githubusercontent.com/61389709/230994219-52a15cbf-684c-48fe-afb3-e44ddd00bc13.png)
+
+It is apparent that There are huge differences in educational attainment across reported races. Asian posters in the sample are about twice as likely to have a master’s degree than a member of any other racial group. This is a potentially fruitful area of further research to pursue within the dataset.
 
